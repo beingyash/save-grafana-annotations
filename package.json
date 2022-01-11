@@ -1,0 +1,26 @@
+{
+  "name": "save-grafana-annotations",
+  "version": "1.0.0",
+  "description": "Pull grafana annotations using grafana's API and save them in a text file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beingyash/save-grafana-annotations.git"
+  },
+  "keywords": [
+    "grfana"
+  ],
+  "author": "Yash Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beingyash/save-grafana-annotations/issues"
+  },
+  "homepage": "https://github.com/beingyash/save-grafana-annotations#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "objects-to-csv": "^1.3.6"
+  }
+}
